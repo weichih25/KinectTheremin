@@ -1,0 +1,420 @@
+﻿Build started 2014/10/22 上午 02:24:50.
+     1>Project "C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\KinectOSC.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "obj\Release\KinectOSC.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "obj\Release\KinectOSC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxOsc\libs /I..\..\..\addons\ofxOsc\src /I..\..\..\addons\ofxOsc\libs\oscpack /I..\..\..\addons\ofxOsc\libs\oscpack\src /I..\..\..\addons\ofxOsc\libs\oscpack\src\ip /I..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix /I..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32 /I..\..\..\addons\ofxOsc\libs\oscpack\src\osc /I..\..\..\addons\ofxKinectNui\libs /I..\..\..\addons\ofxKinectNui\src /I..\..\..\addons\ofxKinectNui\src\kinect /I..\..\..\addons\ofxKinectNui\src\kinect\nui /I..\..\..\addons\ofxKinectNui\src\win32 /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\ofApp.cpp ..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp ..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp ..\..\..\addons\ofxOsc\src\ofxOscParameterSync.cpp ..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp ..\..\..\addons\ofxOsc\src\ofxOscSender.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\NetworkingUtils.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtilsWin.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp ..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\AudioStream.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\ImageFrame.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\ImageStream.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\Kinect.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\KinectContext.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\SkeletonEngine.cpp ..\..\..\addons\ofxKinectNui\src\kinect\nui\SkeletonFrame.cpp ..\..\..\addons\ofxKinectNui\src\ofxKinectNui.cpp ..\..\..\addons\ofxKinectNui\src\ofxKinectNuiDraw.cpp ..\..\..\addons\ofxKinectNui\src\ofxKinectNuiPlayer.cpp ..\..\..\addons\ofxKinectNui\src\ofxKinectNuiRecorder.cpp ..\..\..\addons\ofxKinectNui\src\ofxKinectNuiSoundRecorder.cpp ..\..\..\addons\ofxKinectNui\src\win32\Event.cpp
+         main.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\of_v0.8.4_vs_release\addons\ofxkinectnui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\libs\freeImage\include\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ofApp.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\of_v0.8.4_vs_release\addons\ofxkinectnui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\libs\freeImage\include\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ofxOscBundle.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxOscMessage.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxOscParameterSync.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxOscReceiver.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxOscSender.cpp
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         IpEndpointName.cpp
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp(46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp(52): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+         NetworkingUtils.cpp
+         UdpSocket.cpp
+         NetworkingUtilsWin.cpp
+         UdpSocketWin.cpp
+         OscOutboundPacketStream.cpp
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp(339): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp(581): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp(601): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+         OscPrintReceivedElements.cpp
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp(118): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+         OscReceivedElements.cpp
+         OscTypes.cpp
+         AudioStream.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ImageFrame.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ImageStream.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Kinect.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Generating Code...
+         Compiling...
+         KinectContext.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SkeletonEngine.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SkeletonFrame.cpp
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ofxKinectNui.cpp
+     1>c:\of_v0.8.4_vs_release\addons\ofxkinectnui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         ofxKinectNuiDraw.cpp
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+         ofxKinectNuiPlayer.cpp
+     1>c:\of_v0.8.4_vs_release\addons\ofxkinectnui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         ofxKinectNuiRecorder.cpp
+     1>c:\of_v0.8.4_vs_release\addons\ofxkinectnui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\freeImage\include\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ofxKinectNuiSoundRecorder.cpp
+     1>c:\of_v0.8.4_vs_release\addons\ofxkinectnui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(170): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\graphics\ofPixels.h(171): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(157): warning C4003: not enough actual parameters for macro 'min'
+     1>C:\of_v0.8.4_vs_release\libs\openFrameworks\types\ofParameter.h(158): warning C4003: not enough actual parameters for macro 'max'
+         Event.cpp
+     1>..\..\..\addons\ofxKinectNui\src\win32\Event.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\of_v0.8.4_vs_release\addons\ofxKinectNui\src\win32/Event.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Release\icon.res" icon.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\KinectOSC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs Kinect10.lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\KinectOSC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\KinectOSC.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\ofxOscBundle.obj
+         obj\Release\ofxOscMessage.obj
+         obj\Release\ofxOscParameterSync.obj
+         obj\Release\ofxOscReceiver.obj
+         obj\Release\ofxOscSender.obj
+         obj\Release\IpEndpointName.obj
+         obj\Release\NetworkingUtils.obj
+         obj\Release\UdpSocket.obj
+         obj\Release\NetworkingUtilsWin.obj
+         obj\Release\UdpSocketWin.obj
+         obj\Release\OscOutboundPacketStream.obj
+         obj\Release\OscPrintReceivedElements.obj
+         obj\Release\OscReceivedElements.obj
+         obj\Release\OscTypes.obj
+         obj\Release\AudioStream.obj
+         obj\Release\ImageFrame.obj
+         obj\Release\ImageStream.obj
+         obj\Release\Kinect.obj
+         obj\Release\KinectContext.obj
+         obj\Release\SkeletonEngine.obj
+         obj\Release\SkeletonFrame.obj
+         obj\Release\ofxKinectNui.obj
+         obj\Release\ofxKinectNuiDraw.obj
+         obj\Release\ofxKinectNuiPlayer.obj
+         obj\Release\ofxKinectNuiRecorder.obj
+         obj\Release\ofxKinectNuiSoundRecorder.obj
+         obj\Release\Event.obj
+         C:\of_v0.8.4_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+            Creating library bin\KinectOSC.lib and object bin\KinectOSC.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         KinectOSC.vcxproj -> C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\bin\KinectOSC.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\*.dll" "C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\bin"
+         :VCEnd
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\Assimp32.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\fmodex.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\fmodexL.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\FreeImage.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\FreeType-6.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\glut32.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\libeay32.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\ssleay32.dll
+         C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "obj\Release\KinectOSC.unsuccessfulbuild".
+         Touching "obj\Release\KinectOSC.lastbuildstate".
+     1>Done Building Project "C:\of_v0.8.4_vs_release\apps\myApps\KinectOSC\KinectOSC.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:29.32
